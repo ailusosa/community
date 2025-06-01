@@ -1,0 +1,671 @@
+
+/*  - - - - - - - RESETEOS GENERALES - - - - - - - */
+
+
+* {
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+img {
+    display: block; 
+    max-width: 100%; 
+}
+
+
+/*  - - - - - - - DISEÑO GENERAL - - - - - - - */
+
+
+body {
+    background-color: #224c8c; 
+    color: whitesmoke; 
+    padding-top: 60px; 
+}
+
+
+main  {
+    max-width: 1200px; 
+    margin: auto; 
+}
+
+.titcommunity {
+
+    background-color: #ffffff;
+    position:fixed; 
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+}
+
+.titcommunity > header {
+
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*  - - - - - - - NAV - - - - - - - */
+
+
+nav {
+
+    margin-top: 40px; 
+}
+
+
+
+
+nav ul {
+
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem; 
+    padding: 1rem;
+}
+
+nav ul li {
+
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ECF0F1;
+    margin-bottom: 0.5rem;
+    font-family: 'Black Ops One', sans-serif;
+    font-size: 1.5rem;
+    color: #224c8c; 
+    
+}
+
+nav a { 
+    text-decoration: none;
+    color: #224c8c
+    
+    
+}
+
+
+
+
+
+/*  - - - - - - - TÍTULOS - - - - - - - */
+
+
+h1 {
+    display: none;
+}
+
+  
+h2 {
+
+    font-family: 'Black Ops One', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    border-left: 5px solid #ECF0F1;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+h3 {
+
+    font-size: 1.8rem;           
+    font-weight: 500;             
+    color: #f2f6f7;               
+    text-transform: uppercase;    
+    margin-bottom: 2rem;          
+    letter-spacing: 1px;          
+    font-family: "Bebas Neue", sans-serif;  
+    
+
+}
+
+/*  - - - - - - - PÁRRAFOS - - - - - - - */
+  
+ 
+p {
+
+    font-size: 1.5rem; 
+    color: #e0e0e0;
+    margin-bottom: 1.5rem;
+    line-height: 1.75; 
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    letter-spacing: 0.3px; 
+    
+}
+
+
+/*  - - - - - - - SECCIONES - - - - - - - */
+
+section {
+
+    padding: 0.5rem 1rem;
+    margin: 1rem 0.5rem;
+}
+
+
+
+.estiloimg {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.estiloimg > img {
+
+    outline: 0.5rem solid #e0e0e0;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+   
+}
+
+
+/*  - - - - - - - SECCIÓN INTRO - - - - - - - */
+
+.intro2 {
+    display: block; 
+    padding: 0.5rem;
+  }
+  
+  .imgintro {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imgintro img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    outline: 0.5rem solid #e0e0e0;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+
+  /*  - - - - - - - SECCIÓN HISTO - - - - - - - */
+
+
+
+.imghis > img {
+
+    outline: 0.5rem solid #e0e0e0;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+
+}
+
+
+
+.imghis2 {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imghis2 > img { 
+
+    outline: 0.5rem solid #e0e0e0;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+
+}
+
+.imgepi {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imgepi > img { 
+
+    outline: 0.5rem solid #e0e0e0;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+
+}
+
+/*  - - - - - - - PIE DE IMÁGENES - - - - - - - */
+
+.pieimg {
+
+    font-size: 1.1rem;              
+    color: #cccccc;
+    font-weight: 600;               
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 1rem 1rem;          
+    line-height: 1.4;              
+}
+
+
+/*  - - - - - - - SECCIÓN VIDEOS - - - - - - - */
+
+iframe {
+
+    width: 100%;
+    aspect-ratio: 16/9;
+    outline: 0.5rem solid #e0e0e0;
+    border-radius: 1rem;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+/*  - - - - - - - SECCIÓN CLUB COMMUNITY FORM - - - - - - - */
+
+
+.grupo-formulario {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.grupo-formulario label {
+
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 1.8rem;
+  color: #f2f6f7;
+  text-transform: uppercase;
+
+}
+
+
+.grupo-formulario input,
+.grupo-formulario textarea {
+
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #f2f2f2;
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
+
+}
+
+
+
+button[type="submit"] {
+
+  display: block;
+  margin: 2rem auto 0 auto;
+  width: 35%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #ecf0f1;
+  color: #224c8c;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+  
+/*  - - - - - - - FOOTER - - - - - - - */
+  
+#footer {
+
+    background-color: #f8f9fc;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+  
+
+.datosfooter {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+  
+.datosfooter > img {
+
+    outline: 0.5rem solid #224c8c;
+    border-radius: 1rem;
+    margin: 2rem;
+
+}
+  
+
+.datosfooter > p {
+
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #224c8c;
+    font-weight: 500;
+    line-height: 1.5rem;
+   
+  }
+
+
+
+
+
+
+/*  - - - - - - - - - - - - - - TABLET - - - - - - - - - - - - - - */
+
+
+
+@media screen and (min-width:768px) {
+
+
+section {
+
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+
+    }
+
+
+/*  - - - - - - - TABLET NAV - - - - - - - */
+    
+nav ul {
+
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+/*  - - - - - - - TABLET TÍTULOS - - - - - - - */
+
+
+h3 {
+
+    text-align: center;
+    font-size: 2rem; 
+    border: 2px solid transparent;
+    padding: 1rem;
+    
+   
+     
+
+}
+
+/*  - - - - - - - TABLET SECCIÓN INTRO - - - - - - - */
+
+.imgintro img {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    display: block;
+    
+  }
+
+  .intro2 {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .imgintro,
+  .textointro {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+/*  - - - - - - - TABLET SECCIÓN HISTO - - - - - - - */
+
+  .imghis > img {
+
+    width: 100%;
+    max-width: 450px; 
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+    
+
+}
+
+
+/*  - - - - - - - TABLET PERSONAJES - - - - - - - */
+
+.perfiles {
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 3rem; 
+    text-align: center;
+    border: 2px solid transparent;
+        
+}
+
+.estiloimg {
+
+    border: 3px solid transparent;
+    margin-top: 1.2rem;
+
+}
+
+.estiloimg > img {
+
+    outline: 0.5rem solid #e0e0e0;
+    border-radius: 1rem;
+    margin-bottom: 1rem;    
+    margin-top: -1.5rem;
+   
+}
+
+
+
+
+/*  - - - - - - - TABLET EPISODIOS - - - - - - - */
+
+.imgepi > img {
+
+    width: 100%;
+    max-width: 450px; 
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+    
+
+}
+
+
+
+
+
+/*  - - - - - - - TABLET PIE IMAGEN - - - - - - - */
+.pieimg {
+
+    font-size: 1.4rem;              
+                
+}
+
+
+
+/*  - - - - - - - TABLET CLUB COMMUNITY FORM - - - - - - - */
+
+.formcol1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+        
+}
+
+
+
+
+
+/*  - - - - - - - - - - - - - - WEB - - - - - - - - - - - - - - */
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+/*  - - - - - - - WEB NAV - - - - - - - */
+
+nav ul {
+        grid-template-columns: repeat(6, 1fr); 
+
+}
+
+
+/*  - - - - - - - WEB SECCIÓN INTRO - - - - - - - */
+
+.intro2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    align-items: start;
+  }
+
+  .imgintro {
+    display: block;
+  }
+
+  .textointro {
+    display: block;
+  }
+
+
+  .imgintro img {
+
+    margin: 1rem auto;
+   
+
+  }
+
+/*  - - - - - - - WEB SECCIÓN HISTORIA - - - - - - - */
+
+.histo {
+
+    column-count: 2;
+    column-gap: 40px;
+    margin: 0 auto;
+    padding: 10px;
+
+  }
+
+
+
+
+/*  - - - - - - - WEB PERSONAJES - - - - - - - */
+   
+.perfiles{
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 3rem; 
+    
+}
+
+
+/*  - - - - - - - WEB EPISODIOS - - - - - - - */
+
+.imgepi {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imgepi > img { 
+
+    outline: 0.5rem solid #e0e0e0;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+
+}
+
+
+.epi2 {
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 3rem; 
+   
+ }
+
+.epi2 img {
+
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    
+  }
+
+
+/*  - - - - - - - WEB CLUB COMMUNITY FORM - - - - - - - */
+
+   
+.formcol1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    
+  }
+
+.grupo-formulario textarea {
+
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: #f2f2f2;
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+    max-width: 655px; 
+    width: 100%; 
+  }
+
+  
+}
+
+
+  
+}
+
+
+
+
+
+
+    
+  
+  
+
+
+
+  
+  
+
+  
+ 
+
+
+
+  
+  
